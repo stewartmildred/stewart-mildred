@@ -1,0 +1,11 @@
+.header{
+    background-color: rgb(47, 47, 76);
+    color: white;
+}
+.nav-link:hover,.navbar-brand:hover, .navbar-text:hover{
+    color: rgb(240, 234, 234) !important;
+    font-weight: 900;
+}
+.navbar-brand, .nav-link, .navbar-text{
+    color: white !important;
+}
