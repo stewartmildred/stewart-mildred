@@ -1,0 +1,138 @@
+.typed{
+  background-color: rgb(47, 47, 76);
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.typed-text{
+  color: white;
+}
+.images img{
+  width: 12em;
+  height: 12em;
+}
+ .first_section{
+  display : flex;
+  justify-content: space-around;
+  align-items: space-between;
+ }
+ .first_section{
+  background-color: rgba(254, 244, 234, 1);
+ }
+ .info-text{
+  width: 50%;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:rgba(76, 51, 71, 1);
+}
+.info-text p{
+  color:rgba(76, 51, 71, 1);
+}
+ .info-text h3{
+  margin: 0 0 .5em .5em;
+  display: flex;
+  flex-direction: start;
+ }
+.images{
+  margin: 30px 20px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 2em;
+    background-color:black;
+}
+.choose{
+  margin: .5em .5em;
+}
+#aboutus{
+  margin-top: 2em;
+}
+.images1,.images2{
+  width: 10em;
+}
+
+h3{
+  margin: 0 19px;
+}
+#pricing {
+  text-align: center;
+}
+.home{
+  color: black;
+  background-color: rgb(255, 255, 255);
+  font-family: Barlow-Regular,Arial,myanmar_font;
+}
+
+p{
+  margin: 0 10px;
+}
+.p1,.p2{
+  margin-top: 1em;
+}
+.aim{
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+.button{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+button{
+  padding: .4em 1em;
+  border-radius: 2em;
+  background-color: rgb(47, 47, 76);
+  color: white;
+}
+.button-p{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding: 2em 0;
+}
+.presentation{
+  margin-left: .5em;
+
+  color:  rgb(99, 99, 139);
+}
+@media(max-width: 800px){
+  .images img{
+    width: 10em;
+    height: 10em;
+    border-radius: 5em;
+  }
+  .aim{
+    width: 100%;
+  }
+  
+  .first_section{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+   }
+   .info-text{
+    width: 80%;
+   }
+   p, li{
+    font-size: 12px;
+   }
+   .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    background-color:black;
+    margin:  2em auto;
+    
+    margin-bottom: 0;
+   }
+}
